@@ -89,8 +89,8 @@ td:nth-child(2) {
 }
 #banner {
     position: fixed;
-    right:50px;
-    top: 400px;
+    right:15px;
+    top: 600px;
     z-index: 999;
 }
 ul {
@@ -140,4 +140,33 @@ ul {
 }
 h4 {
     font-weight: bold;
+}
+
+/* 리뷰 */
+.center_text {
+    text-align: center;
+    font-weight: bold;
+}
+.saying {
+    
+    font-size: 60px;
+    margin: 80px 0 20px;
+}
+.star0 {
+    margin: 0 0 20px;
+}
+.star1 {
+    font-size: 20px;
+}
+.star2s{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.star2{
+    width: 10px;
+    height: 10px;
+}
+.star3 {
+    color:grey;
 }
